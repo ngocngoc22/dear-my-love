@@ -1,0 +1,81 @@
+body{
+    color: pink;
+    background-color: #000;
+}
+.hello{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Baloo Thambi', cursive;
+    font-size: 5rem;
+    letter-spacing: 20px;
+    position: absolute;
+}
+.hello > span{
+    animation: glow 5s ease-in-out infinite;
+}
+@keyframes glow {
+    0%, 100%{
+        color: white ;
+        text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
+    }
+    10%, 90%{
+        color: black;
+        text-shadow: none;
+    }
+}
+.hello > span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.hello > span:nth-child(3){
+    animation-delay: 0.5s;
+}
+.hello > span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.hello > span:nth-child(5){
+    animation-delay: 1s;
+}
+.hello > span:nth-child(6){
+    animation-delay: 1.25s;
+}
+.hello > span:nth-child(7){
+    animation-delay: 1.50s;
+}
+.hello > span:nth-child(8){
+    animation-delay: 1.75s;
+}
+.hello > span:nth-child(9){
+    animation-delay: 2s;
+}
+.hello > span:nth-child(10){
+    animation-delay: 2.25s;
+}
+.hello > span:nth-child(11){
+    animation-delay: 2.50s;
+}
+.hello > span:nth-child(12){
+    animation-delay: 2.75s;
+}
+p{
+    position: absolute;
+    margin: -10px;
+    margin-left: 11%;
+    font-size: 20px;
+}
+.intro{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 1.5rem;
+}
+.button{
+    color: antiquewhite;
+    font-size: 2rem;
+    position: relative;
+    margin-top: 230px;
+    margin-left: 550px;
+}
